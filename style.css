@@ -1,0 +1,30 @@
+/* 
+    O body é tranformado em display grid para que todo o seus itens fique justificado no centro
+    com um espaçamento de 40px entre eles
+*/
+
+body {
+    margin: 0px;
+    background-image: url(/img/espaco.gif);
+    display: grid;
+    justify-items: center;
+    margin-top: 70px;
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    gap: 40px;
+}
+
+/* 
+    O conteúdo é uma boxmodel onde ficará o forms 
+*/
+
+.conteudo {
+    border: 1px solid rgb(177, 166, 166);
+    padding: 40px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0px;
+    color: #fff;
+}
